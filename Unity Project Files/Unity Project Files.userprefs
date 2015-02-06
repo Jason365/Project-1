@@ -2,8 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerMovement.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Unity Project Files.sln" Line="1" Column="1" />
       <File FileName="Assets\PlayerMovement.cs" Line="11" Column="2" />
+=======
+      <File FileName="Assets\PlayerMovement.cs" Line="53" Column="1" />
+>>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
