@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DamageHandler.cs" />
+     <Compile Include="Assets\EnemyShooting.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\PlayerShooting.cs" />
+     <Compile Include="Assets\PlayerSpawner.cs" />
      <Compile Include="Assets\SelfDestruct.cs" />
      <Compile Include="Assets\StraightBulletMovement.cs" />
      <Compile Include="Assets\StraightLineEnemy.cs" />
