@@ -16,8 +16,9 @@ GameObject:
   - 114: {fileID: 11429044}
   - 60: {fileID: 6029042}
   - 114: {fileID: 11493740}
+  - 114: {fileID: 11423978}
   m_Layer: 9
-  m_Name: Enemy1
+  m_Name: SlowShooter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 129042}
   m_LocalRotation: {x: 1, y: 0, z: 0, w: -4.37113883e-08}
   m_LocalPosition: {x: 0, y: 17.0900002, z: 0}
-  m_LocalScale: {x: .592118502, y: 1.1240052, z: .300000012}
+  m_LocalScale: {x: .699999988, y: 1.29999995, z: .400000006}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -47,9 +48,9 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: b6b83116484f8a944afc918898db2825, type: 2}
-  - {fileID: 2100000, guid: a413633eece67c9479acf4975fcbe019, type: 2}
-  - {fileID: 2100000, guid: 667a713c544b0804d930d4ab5e42e0c1, type: 2}
+  - {fileID: 2100000, guid: 5e17c5ca8d52e0b43a9b4551c33bd7b5, type: 2}
+  - {fileID: 2100000, guid: f88329da43cbb3e46a8ddf083cc2cf55, type: 2}
+  - {fileID: 2100000, guid: 2ebe4b188a1f7cd4ba739377aec47cf7, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -122,6 +123,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11423978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ca7271e0b64e147afdd9900d3ff8a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 20
 --- !u!114 &11429042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -145,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686508c9ed2ff0a4c93e636be2c53061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   invulnPeriod: 0
 --- !u!114 &11493740
 MonoBehaviour:
@@ -158,8 +171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c045e4f7121dfc44bf0d9e8138fabfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletOffset: {x: 0, y: .5, z: 0}
   bulletPrefab: {fileID: 167858, guid: 00f3260e37155494a9584e3a7a589e34, type: 2}
+  bulletOffset: {x: 0, y: .5, z: 0}
   fireDelay: 3
 --- !u!1001 &100100000
 Prefab:

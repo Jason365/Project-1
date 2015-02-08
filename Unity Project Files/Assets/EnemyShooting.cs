@@ -2,11 +2,9 @@
 using System.Collections;
 
 public class EnemyShooting : MonoBehaviour {
-	
-	public Vector3 bulletOffset = new Vector3 (0, 0.5f, 0);
-	
+
 	public GameObject bulletPrefab;
-	
+	public Vector3 bulletOffset = new Vector3 (0, 0.5f, 0);
 	public float fireDelay = 1f;
 	float cooldownTimer = 0;
 	
