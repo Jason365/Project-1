@@ -15,7 +15,6 @@ public class DamageHandler : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D() {
-		Debug.Log ("Trigger!");
 	
 		health--;
 		invulnerable = invulnPeriod;

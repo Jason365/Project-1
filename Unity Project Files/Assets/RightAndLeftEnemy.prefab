@@ -12,9 +12,9 @@ GameObject:
   - 23: {fileID: 2372682}
   - 60: {fileID: 6072682}
   - 50: {fileID: 5072682}
+  - 114: {fileID: 11406924}
   - 114: {fileID: 11472680}
   - 114: {fileID: 11472678}
-  - 114: {fileID: 11472682}
   m_Layer: 9
   m_Name: RightAndLeftEnemy
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172682}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
-  m_LocalPosition: {x: 18.2999992, y: 64, z: 0}
+  m_LocalPosition: {x: -23.6000004, y: 68.4000015, z: 0}
   m_LocalScale: {x: .899999976, y: 1, z: .800000012}
   m_Children: []
   m_Father: {fileID: 0}
@@ -98,6 +98,21 @@ PolygonCollider2D:
       - {x: -1.64558351, y: -1.60321987}
       - {x: -1.64057374, y: -.63152492}
       - {x: -.748344183, y: 1.4498558}
+--- !u!114 &11406924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f003cf5ab12e22f42acc6e9c3a2904bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  downSpeed: 5
+  sideleftSpeed: 6
+  siderightSpeed: -6
+  smallEnemyBoundaryRadius: 1.79999995
 --- !u!114 &11472678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -111,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 167858, guid: 00f3260e37155494a9584e3a7a589e34, type: 2}
   bulletOffset: {x: 0, y: .5, z: 0}
-  fireDelay: 2.5
+  fireDelay: 4
 --- !u!114 &11472680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,21 +140,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   invulnPeriod: 0
---- !u!114 &11472682
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 172682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d9aad8990a3329418f63b744ca73c9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  downSpeed: 20
-  sideleftSpeed: -6
-  siderightSpeed: 6
-  smallEnemyBoundaryRadius: 1.79999995
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

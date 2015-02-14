@@ -46,18 +46,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DamageHandler.cs" />
-     <Compile Include="Assets\EnemyShooting.cs" />
-     <Compile Include="Assets\Here.cs" />
-     <Compile Include="Assets\Here2.cs" />
-     <Compile Include="Assets\PlayerMovement.cs" />
-     <Compile Include="Assets\PlayerShooting.cs" />
-     <Compile Include="Assets\PlayerSpawner.cs" />
-     <Compile Include="Assets\SelfDestruct.cs" />
-     <Compile Include="Assets\SpawnEnemy.cs" />
-     <Compile Include="Assets\StraightBulletMovement.cs" />
-     <Compile Include="Assets\StraightLineEnemy.cs" />
-     <Compile Include="Assets\TripleShot.cs" />
+     <Compile Include="Assets\Codes\DamageHandler.cs" />
+     <Compile Include="Assets\Codes\EnemyShooting.cs" />
+     <Compile Include="Assets\Codes\EnemySpawnLine.cs" />
+     <Compile Include="Assets\Codes\EnemySpawningScript.cs" />
+     <Compile Include="Assets\Codes\FirstSpawnPattern.cs" />
+     <Compile Include="Assets\Codes\Here.cs" />
+     <Compile Include="Assets\Codes\Here2.cs" />
+     <Compile Include="Assets\Codes\PlayerMovement.cs" />
+     <Compile Include="Assets\Codes\PlayerShooting.cs" />
+     <Compile Include="Assets\Codes\PlayerSpawner.cs" />
+     <Compile Include="Assets\Codes\SelfDestruct.cs" />
+     <Compile Include="Assets\Codes\SpawnEnemy.cs" />
+     <Compile Include="Assets\Codes\StraightBulletMovement.cs" />
+     <Compile Include="Assets\Codes\StraightLineEnemy.cs" />
+     <Compile Include="Assets\Codes\TripleShot.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>E:/Jasons stuff/First Project Repository/Project-1/Unity Project Files/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

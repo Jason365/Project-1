@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 167858, guid: 00f3260e37155494a9584e3a7a589e34, type: 2}
   bulletOffset: {x: 0, y: .5, z: 0}
-  fireDelay: 2.5
+  fireDelay: 4
 --- !u!114 &11485828
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,9 +136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f003cf5ab12e22f42acc6e9c3a2904bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  downSpeed: 10
-  sideleftSpeed: 6
-  siderightSpeed: -6
+  downSpeed: 5
+  sideleftSpeed: -6
+  siderightSpeed: 6
   smallEnemyBoundaryRadius: 1.79999995
 --- !u!1001 &100100000
 Prefab:
