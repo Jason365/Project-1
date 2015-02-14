@@ -57,6 +57,7 @@
      <Compile Include="Assets\SpawnEnemy.cs" />
      <Compile Include="Assets\StraightBulletMovement.cs" />
      <Compile Include="Assets\StraightLineEnemy.cs" />
+     <Compile Include="Assets\TripleShot.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>

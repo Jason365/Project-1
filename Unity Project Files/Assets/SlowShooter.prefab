@@ -15,8 +15,8 @@ GameObject:
   - 114: {fileID: 11429042}
   - 114: {fileID: 11429044}
   - 60: {fileID: 6029042}
-  - 114: {fileID: 11493740}
   - 114: {fileID: 11423978}
+  - 114: {fileID: 11422668}
   m_Layer: 9
   m_Name: SlowShooter
   m_TagString: Untagged
@@ -123,6 +123,22 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11422668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54aeecd7f6199de4ea81b0e067151436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 167858, guid: 00f3260e37155494a9584e3a7a589e34, type: 2}
+  bulletOffset: {x: 0, y: .5, z: 0}
+  fireDelay: 3
+  bulletRotation1: {x: 0, y: 1, z: 3, w: -10}
+  bulletRotation2: {x: 0, y: 1, z: 3, w: 10}
 --- !u!114 &11423978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -146,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b302244f0b8e94bba7a19ce2a82d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 5
+  maxSpeed: 3
 --- !u!114 &11429044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -158,22 +174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686508c9ed2ff0a4c93e636be2c53061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 5
   invulnPeriod: 0
---- !u!114 &11493740
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 129042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c045e4f7121dfc44bf0d9e8138fabfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 167858, guid: 00f3260e37155494a9584e3a7a589e34, type: 2}
-  bulletOffset: {x: 0, y: .5, z: 0}
-  fireDelay: 3
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

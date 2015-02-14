@@ -57,6 +57,7 @@
      <Compile Include="Assets\SpawnEnemy.cs" />
      <Compile Include="Assets\StraightBulletMovement.cs" />
      <Compile Include="Assets\StraightLineEnemy.cs" />
+     <Compile Include="Assets\TripleShot.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>E:/Jasons stuff/First Project Repository/Project-1/Unity Project Files/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
