@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Here : MonoBehaviour {
+public class FlipDirection : MonoBehaviour {
 
 	// Move side to side nigga
 

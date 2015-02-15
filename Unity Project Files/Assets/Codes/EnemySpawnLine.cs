@@ -31,7 +31,12 @@ public class EnemySpawnLine: MonoBehaviour {
 			
 			Instantiate(enemy, transform.position + offset, transform.rotation);
 		}
-		if(spawnTimer >= 80){
+		if(spawnTimer == 90){
+			Vector3 offset = transform.rotation * enemyOffset;
+			
+			Instantiate(enemy, transform.position + offset, transform.rotation);
+		}
+		if(spawnTimer >= 101){
 			Destroy(gameObject);
 		}
 	}

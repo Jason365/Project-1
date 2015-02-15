@@ -51,8 +51,7 @@
      <Compile Include="Assets\Codes\EnemySpawnLine.cs" />
      <Compile Include="Assets\Codes\EnemySpawningScript.cs" />
      <Compile Include="Assets\Codes\FirstSpawnPattern.cs" />
-     <Compile Include="Assets\Codes\Here.cs" />
-     <Compile Include="Assets\Codes\Here2.cs" />
+     <Compile Include="Assets\Codes\FlipDirection.cs" />
      <Compile Include="Assets\Codes\PlayerMovement.cs" />
      <Compile Include="Assets\Codes\PlayerShooting.cs" />
      <Compile Include="Assets\Codes\PlayerSpawner.cs" />

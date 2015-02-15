@@ -15,18 +15,18 @@ public class EnemySpawningScript: MonoBehaviour {
 	
 	void Update() {
 		spawnTimer += 1;
-		//-23 to 23
+		//-13 to 13
 		
 		if (spawnTimer == 0) {
-			int position = Random.Range (-23, 23);
+			int position = Random.Range (-13, 13);
 			Vector3 enemyOffset = new Vector3 (position, 0.5f, 0);
 
 			Vector3 offset = transform.rotation * enemyOffset;
 			
 			Instantiate (spawn1, transform.position + offset, transform.rotation);
 		}
-		if(spawnTimer == 200){
-			int position = Random.Range (-23, 23);
+		if(spawnTimer == 130){
+			int position = Random.Range (-13, 13);
 			Vector3 enemyOffset = new Vector3 (position, 0.5f, 0);
 
 			Vector3 offset = transform.rotation * enemyOffset;
@@ -34,7 +34,7 @@ public class EnemySpawningScript: MonoBehaviour {
 			Instantiate(spawn2, transform.position + offset, transform.rotation);
 		}
 		if(spawnTimer == 400){
-			int position = Random.Range (-23, 23);
+			int position = Random.Range (-13, 13);
 			Vector3 enemyOffset = new Vector3 (position, 0.5f, 0);
 
 			Vector3 offset = transform.rotation * enemyOffset;
@@ -42,7 +42,7 @@ public class EnemySpawningScript: MonoBehaviour {
 			Instantiate(spawn3, transform.position + offset, transform.rotation);
 		}
 		if(spawnTimer == 600){
-			int position = Random.Range (-23, 23);
+			int position = Random.Range (-13, 13);
 			Vector3 enemyOffset = new Vector3 (position, 0.5f, 0);
 
 			Vector3 offset = transform.rotation * enemyOffset;
@@ -50,7 +50,7 @@ public class EnemySpawningScript: MonoBehaviour {
 			Instantiate(spawn4, transform.position + offset, transform.rotation);
 		}
 		if(spawnTimer == 800){
-			int position = Random.Range (-23, 23);
+			int position = Random.Range (-13, 13);
 			Vector3 enemyOffset = new Vector3 (position, 0.5f, 0);
 
 			Vector3 offset = transform.rotation * enemyOffset;
